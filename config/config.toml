@@ -1,0 +1,7 @@
+[google-spreadsheet]
+    spreadsheet_link = 'https://docs.google.com/spreadsheets/d/13JoSe_OyLjCXLfydDmNhunAWdkZFwVM4ihnnzNYy2U0'
+    spreadsheet_list_name = 'Лист2'
+    link_field = 'Ссылка'
+    reserved_fields = ['Комментарий']
+    service_account_creds_file = '/config/viarmo-test-ea9b37abada1.json'
+

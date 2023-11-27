@@ -1,0 +1,6 @@
+toml==0.10.2
+google-auth==2.23.4
+google-api-python-client==2.108.0
+pandas==2.0.3
+PyVirtualDisplay==3.0
+selenium==4.15.2

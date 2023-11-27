@@ -1,0 +1,240 @@
+ [MainThread] 2023-11-27 14:21:23,519 : INFO ::: Logger created. Log file: /logs/updater__2023-11-27_14_21.log
+ [MainThread] 2023-11-27 14:21:23,528 : INFO ::: Config file loaded
+ [MainThread] 2023-11-27 14:21:23,529 : INFO ::: Start processing spreadsheet_id: 13JoSe_OyLjCXLfydDmNhunAWdkZFwVM4ihnnzNYy2U0
+ [MainThread] 2023-11-27 14:21:23,537 : DEBUG ::: Creds file /config/viarmo-test-ea9b37abada1.json has been read
+ [MainThread] 2023-11-27 14:21:23,539 : INFO ::: file_cache is only supported with oauth2client<4.0.0
+ [MainThread] 2023-11-27 14:21:23,542 : INFO ::: Gdrive client configured: 
+	spreadsheet id 13JoSe_OyLjCXLfydDmNhunAWdkZFwVM4ihnnzNYy2U0, 
+	list name Лист2
+ [MainThread] 2023-11-27 14:21:23,551 : DEBUG ::: command: ['Xvfb', '-br', '-nolisten', 'tcp', '-screen', '0', '1600x900x24', '-displayfd', '5']
+ [MainThread] 2023-11-27 14:21:23,603 : DEBUG ::: set $DISPLAY=:0
+ [MainThread] 2023-11-27 14:21:23,604 : DEBUG ::: Selenium Manager binary found at: /usr/local/lib/python3.8/site-packages/selenium/webdriver/common/linux/selenium-manager
+ [MainThread] 2023-11-27 14:21:23,606 : DEBUG ::: Executing process: /usr/local/lib/python3.8/site-packages/selenium/webdriver/common/linux/selenium-manager --browser chrome --output json
+ [MainThread] 2023-11-27 14:21:25,490 : DEBUG ::: Driver path: /root/.cache/selenium/chromedriver/linux64/119.0.6045.105/chromedriver
+ [MainThread] 2023-11-27 14:21:25,491 : DEBUG ::: Browser path: /usr/bin/google-chrome
+ [MainThread] 2023-11-27 14:21:25,493 : DEBUG ::: Using driver at: /root/.cache/selenium/chromedriver/linux64/119.0.6045.105/chromedriver
+ [MainThread] 2023-11-27 14:21:25,498 : DEBUG ::: Started executable: `/root/.cache/selenium/chromedriver/linux64/119.0.6045.105/chromedriver` in a child process with pid: 123
+ [MainThread] 2023-11-27 14:21:25,502 : DEBUG ::: POST http://localhost:47767/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "browserVersion": null, "goog:chromeOptions": {"extensions": [], "binary": "/usr/bin/google-chrome", "args": ["--disable-dev-shm-usage", "--no-sandbox"]}}}}
+ [MainThread] 2023-11-27 14:21:25,504 : DEBUG ::: Starting new HTTP connection (1): localhost:47767
+ [MainThread] 2023-11-27 14:21:26,176 : DEBUG ::: http://localhost:47767 "POST /session HTTP/1.1" 200 0
+ [MainThread] 2023-11-27 14:21:26,176 : DEBUG ::: Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"119.0.6045.159","chrome":{"chromedriverVersion":"119.0.6045.105 (38c72552c5e15ba9b3117c0967a0fd105072d7c6-refs/branch-heads/6045@{#1103})","userDataDir":"/tmp/.org.chromium.Chromium.ufl00u"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:36963"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"linux","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"855f771765305ae6d42f71e7ee35494e"}} | headers=HTTPHeaderDict({'Content-Length': '850', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+ [MainThread] 2023-11-27 14:21:26,177 : DEBUG ::: Finished Request
+ [MainThread] 2023-11-27 14:21:26,178 : DEBUG ::: POST http://localhost:47767/session/855f771765305ae6d42f71e7ee35494e/timeouts {"implicit": 5000}
+ [MainThread] 2023-11-27 14:21:26,180 : DEBUG ::: http://localhost:47767 "POST /session/855f771765305ae6d42f71e7ee35494e/timeouts HTTP/1.1" 200 0
+ [MainThread] 2023-11-27 14:21:26,180 : DEBUG ::: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+ [MainThread] 2023-11-27 14:21:26,181 : DEBUG ::: Finished Request
+ [MainThread] 2023-11-27 14:21:26,181 : INFO ::: Virtual chrome was successfully initialized
+ [MainThread] 2023-11-27 14:21:26,182 : DEBUG ::: Getting current table from google service, spreadsheet id 13JoSe_OyLjCXLfydDmNhunAWdkZFwVM4ihnnzNYy2U0, list name Лист2
+ [MainThread] 2023-11-27 14:21:26,372 : DEBUG ::: URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/13JoSe_OyLjCXLfydDmNhunAWdkZFwVM4ihnnzNYy2U0/values/%D0%9B%D0%B8%D1%81%D1%822?alt=json
+ [MainThread] 2023-11-27 14:21:26,395 : DEBUG ::: Making request: POST https://oauth2.googleapis.com/token
+ [MainThread] 2023-11-27 14:21:27,504 : INFO ::: Got current table response, n_rows = 4
+ [MainThread] 2023-11-27 14:21:27,505 : INFO ::: Get link for Virtual Chrome to process: https://market.yandex.ru/product--kabel-usb-type-c-hdmi-4k-60-gts-belsis-dlina-1-8-metra-bw8910/941599327/spec?track=char&sku=101300838395&uniqueId=769128
+ [MainThread] 2023-11-27 14:21:27,505 : DEBUG ::: POST http://localhost:47767/session/855f771765305ae6d42f71e7ee35494e/url {"url": "https://market.yandex.ru/product--kabel-usb-type-c-hdmi-4k-60-gts-belsis-dlina-1-8-metra-bw8910/941599327/spec?track=char&sku=101300838395&uniqueId=769128"}
+ [MainThread] 2023-11-27 14:21:29,318 : DEBUG ::: http://localhost:47767 "POST /session/855f771765305ae6d42f71e7ee35494e/url HTTP/1.1" 200 0
+ [MainThread] 2023-11-27 14:21:29,319 : DEBUG ::: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+ [MainThread] 2023-11-27 14:21:29,320 : DEBUG ::: Finished Request
+ [MainThread] 2023-11-27 14:21:29,321 : DEBUG ::: POST http://localhost:47767/session/855f771765305ae6d42f71e7ee35494e/element {"using": "xpath", "value": "/html/body/div[17]/div/div[2]/div/div/div/div/div[1]/button"}
+ [MainThread] 2023-11-27 14:21:34,354 : DEBUG ::: http://localhost:47767 "POST /session/855f771765305ae6d42f71e7ee35494e/element HTTP/1.1" 404 0
+ [MainThread] 2023-11-27 14:21:34,355 : DEBUG ::: Remote response: status=404 | data={"value":{"error":"no such element","message":"no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[17]/div/div[2]/div/div/div/div/div[1]/button\"}\n  (Session info: chrome=119.0.6045.159)","stacktrace":"#0 0x563495b015e3 \u003Cunknown>\n#1 0x5634957c40b7 \u003Cunknown>\n#2 0x563495811f53 \u003Cunknown>\n#3 0x563495812051 \u003Cunknown>\n#4 0x5634958579c4 \u003Cunknown>\n#5 0x563495838f1d \u003Cunknown>\n#6 0x563495854b3d \u003Cunknown>\n#7 0x563495838cc3 \u003Cunknown>\n#8 0x5634958040e4 \u003Cunknown>\n#9 0x5634958050ae \u003Cunknown>\n#10 0x563495ac7ce1 \u003Cunknown>\n#11 0x563495acbb7e \u003Cunknown>\n#12 0x563495ab54b5 \u003Cunknown>\n#13 0x563495acc7d6 \u003Cunknown>\n#14 0x563495a98dbf \u003Cunknown>\n#15 0x563495aef748 \u003Cunknown>\n#16 0x563495aef917 \u003Cunknown>\n#17 0x563495b00773 \u003Cunknown>\n#18 0x7f78a8b83ea7 start_thread\n"}} | headers=HTTPHeaderDict({'Content-Length': '902', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+ [MainThread] 2023-11-27 14:21:34,355 : DEBUG ::: Finished Request
+ [MainThread] 2023-11-27 14:21:34,356 : DEBUG ::: POST http://localhost:47767/session/855f771765305ae6d42f71e7ee35494e/elements {"using": "css selector", "value": "._2TxqA"}
+ [MainThread] 2023-11-27 14:21:34,366 : DEBUG ::: http://localhost:47767 "POST /session/855f771765305ae6d42f71e7ee35494e/elements HTTP/1.1" 200 0
+ [MainThread] 2023-11-27 14:21:34,367 : DEBUG ::: Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"2992F2F28475321162C9DC03FE22F0CE_element_20"},{"element-6066-11e4-a52e-4f735466cecf":"2992F2F28475321162C9DC03FE22F0CE_element_21"},{"element-6066-11e4-a52e-4f735466cecf":"2992F2F28475321162C9DC03FE22F0CE_element_22"},{"element-6066-11e4-a52e-4f735466cecf":"2992F2F28475321162C9DC03FE22F0CE_element_23"},{"element-6066-11e4-a52e-4f735466cecf":"2992F2F28475321162C9DC03FE22F0CE_element_24"},{"element-6066-11e4-a52e-4f735466cecf":"2992F2F28475321162C9DC03FE22F0CE_element_25"},{"element-6066-11e4-a52e-4f735466cecf":"2992F2F28475321162C9DC03FE22F0CE_element_26"},{"element-6066-11e4-a52e-4f735466cecf":"2992F2F28475321162C9DC03FE22F0CE_element_27"},{"element-6066-11e4-a52e-4f735466cecf":"2992F2F28475321162C9DC03FE22F0CE_element_28"},{"element-6066-11e4-a52e-4f735466cecf":"2992F2F28475321162C9DC03FE22F0CE_element_29"},{"element-6066-11e4-a52e-4f735466cecf":"2992F2F28475321162C9DC03FE22F0CE_element_30"},{"element-6066-11e4-a52e-4f735466cecf":"2992F2F28475321162C9DC03FE22F0CE_element_31"}]} | headers=HTTPHeaderDict({'Content-Length': '1043', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+ [MainThread] 2023-11-27 14:21:34,367 : DEBUG ::: Finished Request
+ [MainThread] 2023-11-27 14:21:34,368 : DEBUG ::: POST http://localhost:47767/session/855f771765305ae6d42f71e7ee35494e/elements {"using": "css selector", "value": "._3PnEm"}
+ [MainThread] 2023-11-27 14:21:34,378 : DEBUG ::: http://localhost:47767 "POST /session/855f771765305ae6d42f71e7ee35494e/elements HTTP/1.1" 200 0
+ [MainThread] 2023-11-27 14:21:34,379 : DEBUG ::: Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"2992F2F28475321162C9DC03FE22F0CE_element_32"},{"element-6066-11e4-a52e-4f735466cecf":"2992F2F28475321162C9DC03FE22F0CE_element_33"},{"element-6066-11e4-a52e-4f735466cecf":"2992F2F28475321162C9DC03FE22F0CE_element_34"},{"element-6066-11e4-a52e-4f735466cecf":"2992F2F28475321162C9DC03FE22F0CE_element_35"},{"element-6066-11e4-a52e-4f735466cecf":"2992F2F28475321162C9DC03FE22F0CE_element_36"},{"element-6066-11e4-a52e-4f735466cecf":"2992F2F28475321162C9DC03FE22F0CE_element_37"},{"element-6066-11e4-a52e-4f735466cecf":"2992F2F28475321162C9DC03FE22F0CE_element_38"},{"element-6066-11e4-a52e-4f735466cecf":"2992F2F28475321162C9DC03FE22F0CE_element_39"},{"element-6066-11e4-a52e-4f735466cecf":"2992F2F28475321162C9DC03FE22F0CE_element_40"},{"element-6066-11e4-a52e-4f735466cecf":"2992F2F28475321162C9DC03FE22F0CE_element_41"},{"element-6066-11e4-a52e-4f735466cecf":"2992F2F28475321162C9DC03FE22F0CE_element_42"},{"element-6066-11e4-a52e-4f735466cecf":"2992F2F28475321162C9DC03FE22F0CE_element_43"}]} | headers=HTTPHeaderDict({'Content-Length': '1043', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+ [MainThread] 2023-11-27 14:21:34,379 : DEBUG ::: Finished Request
+ [MainThread] 2023-11-27 14:21:34,380 : DEBUG ::: GET http://localhost:47767/session/855f771765305ae6d42f71e7ee35494e/element/2992F2F28475321162C9DC03FE22F0CE_element_32/text {}
+ [MainThread] 2023-11-27 14:21:34,392 : DEBUG ::: http://localhost:47767 "GET /session/855f771765305ae6d42f71e7ee35494e/element/2992F2F28475321162C9DC03FE22F0CE_element_32/text HTTP/1.1" 200 0
+ [MainThread] 2023-11-27 14:21:34,393 : DEBUG ::: Remote response: status=200 | data={"value":"1.8 м"} | headers=HTTPHeaderDict({'Content-Length': '18', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+ [MainThread] 2023-11-27 14:21:34,393 : DEBUG ::: Finished Request
+ [MainThread] 2023-11-27 14:21:34,394 : DEBUG ::: GET http://localhost:47767/session/855f771765305ae6d42f71e7ee35494e/element/2992F2F28475321162C9DC03FE22F0CE_element_20/text {}
+ [MainThread] 2023-11-27 14:21:34,401 : DEBUG ::: http://localhost:47767 "GET /session/855f771765305ae6d42f71e7ee35494e/element/2992F2F28475321162C9DC03FE22F0CE_element_20/text HTTP/1.1" 200 0
+ [MainThread] 2023-11-27 14:21:34,402 : DEBUG ::: Remote response: status=200 | data={"value":"Длина кабеля"} | headers=HTTPHeaderDict({'Content-Length': '35', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+ [MainThread] 2023-11-27 14:21:34,402 : DEBUG ::: Finished Request
+ [MainThread] 2023-11-27 14:21:34,402 : DEBUG ::: GET http://localhost:47767/session/855f771765305ae6d42f71e7ee35494e/element/2992F2F28475321162C9DC03FE22F0CE_element_33/text {}
+ [MainThread] 2023-11-27 14:21:34,410 : DEBUG ::: http://localhost:47767 "GET /session/855f771765305ae6d42f71e7ee35494e/element/2992F2F28475321162C9DC03FE22F0CE_element_33/text HTTP/1.1" 200 0
+ [MainThread] 2023-11-27 14:21:34,411 : DEBUG ::: Remote response: status=200 | data={"value":"1 шт."} | headers=HTTPHeaderDict({'Content-Length': '19', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+ [MainThread] 2023-11-27 14:21:34,411 : DEBUG ::: Finished Request
+ [MainThread] 2023-11-27 14:21:34,412 : DEBUG ::: GET http://localhost:47767/session/855f771765305ae6d42f71e7ee35494e/element/2992F2F28475321162C9DC03FE22F0CE_element_21/text {}
+ [MainThread] 2023-11-27 14:21:34,419 : DEBUG ::: http://localhost:47767 "GET /session/855f771765305ae6d42f71e7ee35494e/element/2992F2F28475321162C9DC03FE22F0CE_element_21/text HTTP/1.1" 200 0
+ [MainThread] 2023-11-27 14:21:34,420 : DEBUG ::: Remote response: status=200 | data={"value":"Количество в упаковке"} | headers=HTTPHeaderDict({'Content-Length': '52', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+ [MainThread] 2023-11-27 14:21:34,420 : DEBUG ::: Finished Request
+ [MainThread] 2023-11-27 14:21:34,420 : DEBUG ::: GET http://localhost:47767/session/855f771765305ae6d42f71e7ee35494e/element/2992F2F28475321162C9DC03FE22F0CE_element_34/text {}
+ [MainThread] 2023-11-27 14:21:34,429 : DEBUG ::: http://localhost:47767 "GET /session/855f771765305ae6d42f71e7ee35494e/element/2992F2F28475321162C9DC03FE22F0CE_element_34/text HTTP/1.1" 200 0
+ [MainThread] 2023-11-27 14:21:34,429 : DEBUG ::: Remote response: status=200 | data={"value":"черный.."} | headers=HTTPHeaderDict({'Content-Length': '26', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+ [MainThread] 2023-11-27 14:21:34,430 : DEBUG ::: Finished Request
+ [MainThread] 2023-11-27 14:21:34,430 : DEBUG ::: GET http://localhost:47767/session/855f771765305ae6d42f71e7ee35494e/element/2992F2F28475321162C9DC03FE22F0CE_element_22/text {}
+ [MainThread] 2023-11-27 14:21:34,439 : DEBUG ::: http://localhost:47767 "GET /session/855f771765305ae6d42f71e7ee35494e/element/2992F2F28475321162C9DC03FE22F0CE_element_22/text HTTP/1.1" 200 0
+ [MainThread] 2023-11-27 14:21:34,439 : DEBUG ::: Remote response: status=200 | data={"value":"Цвет товара"} | headers=HTTPHeaderDict({'Content-Length': '33', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+ [MainThread] 2023-11-27 14:21:34,441 : DEBUG ::: Finished Request
+ [MainThread] 2023-11-27 14:21:34,442 : DEBUG ::: GET http://localhost:47767/session/855f771765305ae6d42f71e7ee35494e/element/2992F2F28475321162C9DC03FE22F0CE_element_35/text {}
+ [MainThread] 2023-11-27 14:21:34,450 : DEBUG ::: http://localhost:47767 "GET /session/855f771765305ae6d42f71e7ee35494e/element/2992F2F28475321162C9DC03FE22F0CE_element_35/text HTTP/1.1" 200 0
+ [MainThread] 2023-11-27 14:21:34,451 : DEBUG ::: Remote response: status=200 | data={"value":"кабель"} | headers=HTTPHeaderDict({'Content-Length': '24', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+ [MainThread] 2023-11-27 14:21:34,452 : DEBUG ::: Finished Request
+ [MainThread] 2023-11-27 14:21:34,453 : DEBUG ::: GET http://localhost:47767/session/855f771765305ae6d42f71e7ee35494e/element/2992F2F28475321162C9DC03FE22F0CE_element_23/text {}
+ [MainThread] 2023-11-27 14:21:34,461 : DEBUG ::: http://localhost:47767 "GET /session/855f771765305ae6d42f71e7ee35494e/element/2992F2F28475321162C9DC03FE22F0CE_element_23/text HTTP/1.1" 200 0
+ [MainThread] 2023-11-27 14:21:34,462 : DEBUG ::: Remote response: status=200 | data={"value":"Тип"} | headers=HTTPHeaderDict({'Content-Length': '18', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+ [MainThread] 2023-11-27 14:21:34,464 : DEBUG ::: Finished Request
+ [MainThread] 2023-11-27 14:21:34,465 : DEBUG ::: GET http://localhost:47767/session/855f771765305ae6d42f71e7ee35494e/element/2992F2F28475321162C9DC03FE22F0CE_element_36/text {}
+ [MainThread] 2023-11-27 14:21:34,473 : DEBUG ::: http://localhost:47767 "GET /session/855f771765305ae6d42f71e7ee35494e/element/2992F2F28475321162C9DC03FE22F0CE_element_36/text HTTP/1.1" 200 0
+ [MainThread] 2023-11-27 14:21:34,474 : DEBUG ::: Remote response: status=200 | data={"value":"видео, видео HDMI"} | headers=HTTPHeaderDict({'Content-Length': '39', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+ [MainThread] 2023-11-27 14:21:34,475 : DEBUG ::: Finished Request
+ [MainThread] 2023-11-27 14:21:34,476 : DEBUG ::: GET http://localhost:47767/session/855f771765305ae6d42f71e7ee35494e/element/2992F2F28475321162C9DC03FE22F0CE_element_24/text {}
+ [MainThread] 2023-11-27 14:21:34,484 : DEBUG ::: http://localhost:47767 "GET /session/855f771765305ae6d42f71e7ee35494e/element/2992F2F28475321162C9DC03FE22F0CE_element_24/text HTTP/1.1" 200 0
+ [MainThread] 2023-11-27 14:21:34,485 : DEBUG ::: Remote response: status=200 | data={"value":"Назначение"} | headers=HTTPHeaderDict({'Content-Length': '32', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+ [MainThread] 2023-11-27 14:21:34,486 : DEBUG ::: Finished Request
+ [MainThread] 2023-11-27 14:21:34,488 : DEBUG ::: GET http://localhost:47767/session/855f771765305ae6d42f71e7ee35494e/element/2992F2F28475321162C9DC03FE22F0CE_element_37/text {}
+ [MainThread] 2023-11-27 14:21:34,496 : DEBUG ::: http://localhost:47767 "GET /session/855f771765305ae6d42f71e7ee35494e/element/2992F2F28475321162C9DC03FE22F0CE_element_37/text HTTP/1.1" 200 0
+ [MainThread] 2023-11-27 14:21:34,497 : DEBUG ::: Remote response: status=200 | data={"value":"USB Type-C (M) - HDMI (M)"} | headers=HTTPHeaderDict({'Content-Length': '37', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+ [MainThread] 2023-11-27 14:21:34,497 : DEBUG ::: Finished Request
+ [MainThread] 2023-11-27 14:21:34,498 : DEBUG ::: GET http://localhost:47767/session/855f771765305ae6d42f71e7ee35494e/element/2992F2F28475321162C9DC03FE22F0CE_element_25/text {}
+ [MainThread] 2023-11-27 14:21:34,507 : DEBUG ::: http://localhost:47767 "GET /session/855f771765305ae6d42f71e7ee35494e/element/2992F2F28475321162C9DC03FE22F0CE_element_25/text HTTP/1.1" 200 0
+ [MainThread] 2023-11-27 14:21:34,508 : DEBUG ::: Remote response: status=200 | data={"value":"Разъемы"} | headers=HTTPHeaderDict({'Content-Length': '26', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+ [MainThread] 2023-11-27 14:21:34,509 : DEBUG ::: Finished Request
+ [MainThread] 2023-11-27 14:21:34,510 : DEBUG ::: GET http://localhost:47767/session/855f771765305ae6d42f71e7ee35494e/element/2992F2F28475321162C9DC03FE22F0CE_element_38/text {}
+ [MainThread] 2023-11-27 14:21:34,519 : DEBUG ::: http://localhost:47767 "GET /session/855f771765305ae6d42f71e7ee35494e/element/2992F2F28475321162C9DC03FE22F0CE_element_38/text HTTP/1.1" 200 0
+ [MainThread] 2023-11-27 14:21:34,519 : DEBUG ::: Remote response: status=200 | data={"value":"кабель в оплетке"} | headers=HTTPHeaderDict({'Content-Length': '42', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+ [MainThread] 2023-11-27 14:21:34,520 : DEBUG ::: Finished Request
+ [MainThread] 2023-11-27 14:21:34,521 : DEBUG ::: GET http://localhost:47767/session/855f771765305ae6d42f71e7ee35494e/element/2992F2F28475321162C9DC03FE22F0CE_element_26/text {}
+ [MainThread] 2023-11-27 14:21:34,529 : DEBUG ::: http://localhost:47767 "GET /session/855f771765305ae6d42f71e7ee35494e/element/2992F2F28475321162C9DC03FE22F0CE_element_26/text HTTP/1.1" 200 0
+ [MainThread] 2023-11-27 14:21:34,529 : DEBUG ::: Remote response: status=200 | data={"value":"Особенности"} | headers=HTTPHeaderDict({'Content-Length': '34', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+ [MainThread] 2023-11-27 14:21:34,530 : DEBUG ::: Finished Request
+ [MainThread] 2023-11-27 14:21:34,530 : DEBUG ::: GET http://localhost:47767/session/855f771765305ae6d42f71e7ee35494e/element/2992F2F28475321162C9DC03FE22F0CE_element_39/text {}
+ [MainThread] 2023-11-27 14:21:34,538 : DEBUG ::: http://localhost:47767 "GET /session/855f771765305ae6d42f71e7ee35494e/element/2992F2F28475321162C9DC03FE22F0CE_element_39/text HTTP/1.1" 200 0
+ [MainThread] 2023-11-27 14:21:34,539 : DEBUG ::: Remote response: status=200 | data={"value":"медь"} | headers=HTTPHeaderDict({'Content-Length': '20', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+ [MainThread] 2023-11-27 14:21:34,539 : DEBUG ::: Finished Request
+ [MainThread] 2023-11-27 14:21:34,540 : DEBUG ::: GET http://localhost:47767/session/855f771765305ae6d42f71e7ee35494e/element/2992F2F28475321162C9DC03FE22F0CE_element_27/text {}
+ [MainThread] 2023-11-27 14:21:34,547 : DEBUG ::: http://localhost:47767 "GET /session/855f771765305ae6d42f71e7ee35494e/element/2992F2F28475321162C9DC03FE22F0CE_element_27/text HTTP/1.1" 200 0
+ [MainThread] 2023-11-27 14:21:34,547 : DEBUG ::: Remote response: status=200 | data={"value":"Материал проводника"} | headers=HTTPHeaderDict({'Content-Length': '49', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+ [MainThread] 2023-11-27 14:21:34,548 : DEBUG ::: Finished Request
+ [MainThread] 2023-11-27 14:21:34,548 : DEBUG ::: GET http://localhost:47767/session/855f771765305ae6d42f71e7ee35494e/element/2992F2F28475321162C9DC03FE22F0CE_element_40/text {}
+ [MainThread] 2023-11-27 14:21:34,557 : DEBUG ::: http://localhost:47767 "GET /session/855f771765305ae6d42f71e7ee35494e/element/2992F2F28475321162C9DC03FE22F0CE_element_40/text HTTP/1.1" 200 0
+ [MainThread] 2023-11-27 14:21:34,558 : DEBUG ::: Remote response: status=200 | data={"value":"поливинилхлорид (PVC)"} | headers=HTTPHeaderDict({'Content-Length': '48', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+ [MainThread] 2023-11-27 14:21:34,558 : DEBUG ::: Finished Request
+ [MainThread] 2023-11-27 14:21:34,559 : DEBUG ::: GET http://localhost:47767/session/855f771765305ae6d42f71e7ee35494e/element/2992F2F28475321162C9DC03FE22F0CE_element_28/text {}
+ [MainThread] 2023-11-27 14:21:34,567 : DEBUG ::: http://localhost:47767 "GET /session/855f771765305ae6d42f71e7ee35494e/element/2992F2F28475321162C9DC03FE22F0CE_element_28/text HTTP/1.1" 200 0
+ [MainThread] 2023-11-27 14:21:34,567 : DEBUG ::: Remote response: status=200 | data={"value":"Материал диэлектрика"} | headers=HTTPHeaderDict({'Content-Length': '51', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+ [MainThread] 2023-11-27 14:21:34,567 : DEBUG ::: Finished Request
+ [MainThread] 2023-11-27 14:21:34,568 : DEBUG ::: GET http://localhost:47767/session/855f771765305ae6d42f71e7ee35494e/element/2992F2F28475321162C9DC03FE22F0CE_element_41/text {}
+ [MainThread] 2023-11-27 14:21:34,576 : DEBUG ::: http://localhost:47767 "GET /session/855f771765305ae6d42f71e7ee35494e/element/2992F2F28475321162C9DC03FE22F0CE_element_41/text HTTP/1.1" 200 0
+ [MainThread] 2023-11-27 14:21:34,576 : DEBUG ::: Remote response: status=200 | data={"value":"поливинилхлорид (PVC)"} | headers=HTTPHeaderDict({'Content-Length': '48', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+ [MainThread] 2023-11-27 14:21:34,577 : DEBUG ::: Finished Request
+ [MainThread] 2023-11-27 14:21:34,577 : DEBUG ::: GET http://localhost:47767/session/855f771765305ae6d42f71e7ee35494e/element/2992F2F28475321162C9DC03FE22F0CE_element_29/text {}
+ [MainThread] 2023-11-27 14:21:34,586 : DEBUG ::: http://localhost:47767 "GET /session/855f771765305ae6d42f71e7ee35494e/element/2992F2F28475321162C9DC03FE22F0CE_element_29/text HTTP/1.1" 200 0
+ [MainThread] 2023-11-27 14:21:34,587 : DEBUG ::: Remote response: status=200 | data={"value":"Материал оболочки"} | headers=HTTPHeaderDict({'Content-Length': '45', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+ [MainThread] 2023-11-27 14:21:34,587 : DEBUG ::: Finished Request
+ [MainThread] 2023-11-27 14:21:34,587 : DEBUG ::: GET http://localhost:47767/session/855f771765305ae6d42f71e7ee35494e/element/2992F2F28475321162C9DC03FE22F0CE_element_42/text {}
+ [MainThread] 2023-11-27 14:21:34,596 : DEBUG ::: http://localhost:47767 "GET /session/855f771765305ae6d42f71e7ee35494e/element/2992F2F28475321162C9DC03FE22F0CE_element_42/text HTTP/1.1" 200 0
+ [MainThread] 2023-11-27 14:21:34,597 : DEBUG ::: Remote response: status=200 | data={"value":"внутри помещений"} | headers=HTTPHeaderDict({'Content-Length': '43', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+ [MainThread] 2023-11-27 14:21:34,597 : DEBUG ::: Finished Request
+ [MainThread] 2023-11-27 14:21:34,598 : DEBUG ::: GET http://localhost:47767/session/855f771765305ae6d42f71e7ee35494e/element/2992F2F28475321162C9DC03FE22F0CE_element_30/text {}
+ [MainThread] 2023-11-27 14:21:34,606 : DEBUG ::: http://localhost:47767 "GET /session/855f771765305ae6d42f71e7ee35494e/element/2992F2F28475321162C9DC03FE22F0CE_element_30/text HTTP/1.1" 200 0
+ [MainThread] 2023-11-27 14:21:34,607 : DEBUG ::: Remote response: status=200 | data={"value":"Среда эксплуатации"} | headers=HTTPHeaderDict({'Content-Length': '47', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+ [MainThread] 2023-11-27 14:21:34,607 : DEBUG ::: Finished Request
+ [MainThread] 2023-11-27 14:21:34,608 : DEBUG ::: GET http://localhost:47767/session/855f771765305ae6d42f71e7ee35494e/element/2992F2F28475321162C9DC03FE22F0CE_element_43/text {}
+ [MainThread] 2023-11-27 14:21:34,616 : DEBUG ::: http://localhost:47767 "GET /session/855f771765305ae6d42f71e7ee35494e/element/2992F2F28475321162C9DC03FE22F0CE_element_43/text HTTP/1.1" 200 0
+ [MainThread] 2023-11-27 14:21:34,616 : DEBUG ::: Remote response: status=200 | data={"value":"Поддержка 3D изображения, Поддержка разрешения 4K"} | headers=HTTPHeaderDict({'Content-Length': '100', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+ [MainThread] 2023-11-27 14:21:34,617 : DEBUG ::: Finished Request
+ [MainThread] 2023-11-27 14:21:34,617 : DEBUG ::: GET http://localhost:47767/session/855f771765305ae6d42f71e7ee35494e/element/2992F2F28475321162C9DC03FE22F0CE_element_31/text {}
+ [MainThread] 2023-11-27 14:21:34,625 : DEBUG ::: http://localhost:47767 "GET /session/855f771765305ae6d42f71e7ee35494e/element/2992F2F28475321162C9DC03FE22F0CE_element_31/text HTTP/1.1" 200 0
+ [MainThread] 2023-11-27 14:21:34,626 : DEBUG ::: Remote response: status=200 | data={"value":"Дополнительная информация"} | headers=HTTPHeaderDict({'Content-Length': '61', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+ [MainThread] 2023-11-27 14:21:34,627 : DEBUG ::: Finished Request
+ [MainThread] 2023-11-27 14:21:34,627 : INFO ::: Link has been processed by Virtual Chrome, link: https://market.yandex.ru/product--kabel-usb-type-c-hdmi-4k-60-gts-belsis-dlina-1-8-metra-bw8910/941599327/spec?track=char&sku=101300838395&uniqueId=769128
+ [MainThread] 2023-11-27 14:21:36,630 : INFO ::: Get link for Virtual Chrome to process: https://market.yandex.ru/product--videoadapter-kabel-4k-usb-3-1-type-c-hdmi-m-1-8-m-orient-c726/1763133007/spec?track=char&sku=101746530811 
+ [MainThread] 2023-11-27 14:21:36,631 : DEBUG ::: POST http://localhost:47767/session/855f771765305ae6d42f71e7ee35494e/url {"url": "https://market.yandex.ru/product--videoadapter-kabel-4k-usb-3-1-type-c-hdmi-m-1-8-m-orient-c726/1763133007/spec?track=char&sku=101746530811 "}
+ [MainThread] 2023-11-27 14:21:38,075 : DEBUG ::: http://localhost:47767 "POST /session/855f771765305ae6d42f71e7ee35494e/url HTTP/1.1" 200 0
+ [MainThread] 2023-11-27 14:21:38,076 : DEBUG ::: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+ [MainThread] 2023-11-27 14:21:38,077 : DEBUG ::: Finished Request
+ [MainThread] 2023-11-27 14:21:38,077 : DEBUG ::: POST http://localhost:47767/session/855f771765305ae6d42f71e7ee35494e/element {"using": "xpath", "value": "/html/body/div[17]/div/div[2]/div/div/div/div/div[1]/button"}
+ [MainThread] 2023-11-27 14:21:43,151 : DEBUG ::: http://localhost:47767 "POST /session/855f771765305ae6d42f71e7ee35494e/element HTTP/1.1" 404 0
+ [MainThread] 2023-11-27 14:21:43,151 : DEBUG ::: Remote response: status=404 | data={"value":{"error":"no such element","message":"no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[17]/div/div[2]/div/div/div/div/div[1]/button\"}\n  (Session info: chrome=119.0.6045.159)","stacktrace":"#0 0x563495b015e3 \u003Cunknown>\n#1 0x5634957c40b7 \u003Cunknown>\n#2 0x563495811f53 \u003Cunknown>\n#3 0x563495812051 \u003Cunknown>\n#4 0x5634958579c4 \u003Cunknown>\n#5 0x563495838f1d \u003Cunknown>\n#6 0x563495854b3d \u003Cunknown>\n#7 0x563495838cc3 \u003Cunknown>\n#8 0x5634958040e4 \u003Cunknown>\n#9 0x5634958050ae \u003Cunknown>\n#10 0x563495ac7ce1 \u003Cunknown>\n#11 0x563495acbb7e \u003Cunknown>\n#12 0x563495ab54b5 \u003Cunknown>\n#13 0x563495acc7d6 \u003Cunknown>\n#14 0x563495a98dbf \u003Cunknown>\n#15 0x563495aef748 \u003Cunknown>\n#16 0x563495aef917 \u003Cunknown>\n#17 0x563495b00773 \u003Cunknown>\n#18 0x7f78a8b83ea7 start_thread\n"}} | headers=HTTPHeaderDict({'Content-Length': '902', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+ [MainThread] 2023-11-27 14:21:43,152 : DEBUG ::: Finished Request
+ [MainThread] 2023-11-27 14:21:43,153 : DEBUG ::: POST http://localhost:47767/session/855f771765305ae6d42f71e7ee35494e/elements {"using": "css selector", "value": "._2TxqA"}
+ [MainThread] 2023-11-27 14:21:43,160 : DEBUG ::: http://localhost:47767 "POST /session/855f771765305ae6d42f71e7ee35494e/elements HTTP/1.1" 200 0
+ [MainThread] 2023-11-27 14:21:43,161 : DEBUG ::: Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"E197BC834AF5613B946C404B7F419388_element_57"},{"element-6066-11e4-a52e-4f735466cecf":"E197BC834AF5613B946C404B7F419388_element_58"},{"element-6066-11e4-a52e-4f735466cecf":"E197BC834AF5613B946C404B7F419388_element_59"},{"element-6066-11e4-a52e-4f735466cecf":"E197BC834AF5613B946C404B7F419388_element_60"}]} | headers=HTTPHeaderDict({'Content-Length': '355', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+ [MainThread] 2023-11-27 14:21:43,162 : DEBUG ::: Finished Request
+ [MainThread] 2023-11-27 14:21:43,163 : DEBUG ::: POST http://localhost:47767/session/855f771765305ae6d42f71e7ee35494e/elements {"using": "css selector", "value": "._3PnEm"}
+ [MainThread] 2023-11-27 14:21:43,170 : DEBUG ::: http://localhost:47767 "POST /session/855f771765305ae6d42f71e7ee35494e/elements HTTP/1.1" 200 0
+ [MainThread] 2023-11-27 14:21:43,171 : DEBUG ::: Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"E197BC834AF5613B946C404B7F419388_element_61"},{"element-6066-11e4-a52e-4f735466cecf":"E197BC834AF5613B946C404B7F419388_element_62"},{"element-6066-11e4-a52e-4f735466cecf":"E197BC834AF5613B946C404B7F419388_element_63"},{"element-6066-11e4-a52e-4f735466cecf":"E197BC834AF5613B946C404B7F419388_element_64"}]} | headers=HTTPHeaderDict({'Content-Length': '355', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+ [MainThread] 2023-11-27 14:21:43,172 : DEBUG ::: Finished Request
+ [MainThread] 2023-11-27 14:21:43,173 : DEBUG ::: GET http://localhost:47767/session/855f771765305ae6d42f71e7ee35494e/element/E197BC834AF5613B946C404B7F419388_element_61/text {}
+ [MainThread] 2023-11-27 14:21:43,182 : DEBUG ::: http://localhost:47767 "GET /session/855f771765305ae6d42f71e7ee35494e/element/E197BC834AF5613B946C404B7F419388_element_61/text HTTP/1.1" 200 0
+ [MainThread] 2023-11-27 14:21:43,183 : DEBUG ::: Remote response: status=200 | data={"value":"1.8 м"} | headers=HTTPHeaderDict({'Content-Length': '18', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+ [MainThread] 2023-11-27 14:21:43,184 : DEBUG ::: Finished Request
+ [MainThread] 2023-11-27 14:21:43,185 : DEBUG ::: GET http://localhost:47767/session/855f771765305ae6d42f71e7ee35494e/element/E197BC834AF5613B946C404B7F419388_element_57/text {}
+ [MainThread] 2023-11-27 14:21:43,194 : DEBUG ::: http://localhost:47767 "GET /session/855f771765305ae6d42f71e7ee35494e/element/E197BC834AF5613B946C404B7F419388_element_57/text HTTP/1.1" 200 0
+ [MainThread] 2023-11-27 14:21:43,196 : DEBUG ::: Remote response: status=200 | data={"value":"Длина кабеля"} | headers=HTTPHeaderDict({'Content-Length': '35', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+ [MainThread] 2023-11-27 14:21:43,197 : DEBUG ::: Finished Request
+ [MainThread] 2023-11-27 14:21:43,199 : DEBUG ::: GET http://localhost:47767/session/855f771765305ae6d42f71e7ee35494e/element/E197BC834AF5613B946C404B7F419388_element_62/text {}
+ [MainThread] 2023-11-27 14:21:43,208 : DEBUG ::: http://localhost:47767 "GET /session/855f771765305ae6d42f71e7ee35494e/element/E197BC834AF5613B946C404B7F419388_element_62/text HTTP/1.1" 200 0
+ [MainThread] 2023-11-27 14:21:43,209 : DEBUG ::: Remote response: status=200 | data={"value":"черный"} | headers=HTTPHeaderDict({'Content-Length': '24', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+ [MainThread] 2023-11-27 14:21:43,210 : DEBUG ::: Finished Request
+ [MainThread] 2023-11-27 14:21:43,211 : DEBUG ::: GET http://localhost:47767/session/855f771765305ae6d42f71e7ee35494e/element/E197BC834AF5613B946C404B7F419388_element_58/text {}
+ [MainThread] 2023-11-27 14:21:43,219 : DEBUG ::: http://localhost:47767 "GET /session/855f771765305ae6d42f71e7ee35494e/element/E197BC834AF5613B946C404B7F419388_element_58/text HTTP/1.1" 200 0
+ [MainThread] 2023-11-27 14:21:43,220 : DEBUG ::: Remote response: status=200 | data={"value":"Цвет товара"} | headers=HTTPHeaderDict({'Content-Length': '33', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+ [MainThread] 2023-11-27 14:21:43,221 : DEBUG ::: Finished Request
+ [MainThread] 2023-11-27 14:21:43,222 : DEBUG ::: GET http://localhost:47767/session/855f771765305ae6d42f71e7ee35494e/element/E197BC834AF5613B946C404B7F419388_element_63/text {}
+ [MainThread] 2023-11-27 14:21:43,231 : DEBUG ::: http://localhost:47767 "GET /session/855f771765305ae6d42f71e7ee35494e/element/E197BC834AF5613B946C404B7F419388_element_63/text HTTP/1.1" 200 0
+ [MainThread] 2023-11-27 14:21:43,232 : DEBUG ::: Remote response: status=200 | data={"value":"переходник/адаптер"} | headers=HTTPHeaderDict({'Content-Length': '47', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+ [MainThread] 2023-11-27 14:21:43,234 : DEBUG ::: Finished Request
+ [MainThread] 2023-11-27 14:21:43,235 : DEBUG ::: GET http://localhost:47767/session/855f771765305ae6d42f71e7ee35494e/element/E197BC834AF5613B946C404B7F419388_element_59/text {}
+ [MainThread] 2023-11-27 14:21:43,242 : DEBUG ::: http://localhost:47767 "GET /session/855f771765305ae6d42f71e7ee35494e/element/E197BC834AF5613B946C404B7F419388_element_59/text HTTP/1.1" 200 0
+ [MainThread] 2023-11-27 14:21:43,244 : DEBUG ::: Remote response: status=200 | data={"value":"Тип"} | headers=HTTPHeaderDict({'Content-Length': '18', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+ [MainThread] 2023-11-27 14:21:43,245 : DEBUG ::: Finished Request
+ [MainThread] 2023-11-27 14:21:43,246 : DEBUG ::: GET http://localhost:47767/session/855f771765305ae6d42f71e7ee35494e/element/E197BC834AF5613B946C404B7F419388_element_64/text {}
+ [MainThread] 2023-11-27 14:21:43,255 : DEBUG ::: http://localhost:47767 "GET /session/855f771765305ae6d42f71e7ee35494e/element/E197BC834AF5613B946C404B7F419388_element_64/text HTTP/1.1" 200 0
+ [MainThread] 2023-11-27 14:21:43,256 : DEBUG ::: Remote response: status=200 | data={"value":"Для соединения периферийных устройств"} | headers=HTTPHeaderDict({'Content-Length': '83', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+ [MainThread] 2023-11-27 14:21:43,257 : DEBUG ::: Finished Request
+ [MainThread] 2023-11-27 14:21:43,259 : DEBUG ::: GET http://localhost:47767/session/855f771765305ae6d42f71e7ee35494e/element/E197BC834AF5613B946C404B7F419388_element_60/text {}
+ [MainThread] 2023-11-27 14:21:43,267 : DEBUG ::: http://localhost:47767 "GET /session/855f771765305ae6d42f71e7ee35494e/element/E197BC834AF5613B946C404B7F419388_element_60/text HTTP/1.1" 200 0
+ [MainThread] 2023-11-27 14:21:43,268 : DEBUG ::: Remote response: status=200 | data={"value":"Назначение"} | headers=HTTPHeaderDict({'Content-Length': '32', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+ [MainThread] 2023-11-27 14:21:43,269 : DEBUG ::: Finished Request
+ [MainThread] 2023-11-27 14:21:43,270 : INFO ::: Link has been processed by Virtual Chrome, link: https://market.yandex.ru/product--videoadapter-kabel-4k-usb-3-1-type-c-hdmi-m-1-8-m-orient-c726/1763133007/spec?track=char&sku=101746530811 
+ [MainThread] 2023-11-27 14:21:45,274 : INFO ::: Get link for Virtual Chrome to process: https://market.yandex.ru/product--kabel-konverter-interfeisa-aten-iz-usb-c-v-4k-hdmi-2-7-m-uc3238-at/1821163231/spec?track=char&sku=101955126108 
+ [MainThread] 2023-11-27 14:21:45,275 : DEBUG ::: POST http://localhost:47767/session/855f771765305ae6d42f71e7ee35494e/url {"url": "https://market.yandex.ru/product--kabel-konverter-interfeisa-aten-iz-usb-c-v-4k-hdmi-2-7-m-uc3238-at/1821163231/spec?track=char&sku=101955126108 "}
+ [MainThread] 2023-11-27 14:21:46,573 : DEBUG ::: http://localhost:47767 "POST /session/855f771765305ae6d42f71e7ee35494e/url HTTP/1.1" 200 0
+ [MainThread] 2023-11-27 14:21:46,574 : DEBUG ::: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+ [MainThread] 2023-11-27 14:21:46,574 : DEBUG ::: Finished Request
+ [MainThread] 2023-11-27 14:21:46,575 : DEBUG ::: POST http://localhost:47767/session/855f771765305ae6d42f71e7ee35494e/element {"using": "xpath", "value": "/html/body/div[17]/div/div[2]/div/div/div/div/div[1]/button"}
+ [MainThread] 2023-11-27 14:21:51,591 : DEBUG ::: http://localhost:47767 "POST /session/855f771765305ae6d42f71e7ee35494e/element HTTP/1.1" 404 0
+ [MainThread] 2023-11-27 14:21:51,592 : DEBUG ::: Remote response: status=404 | data={"value":{"error":"no such element","message":"no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[17]/div/div[2]/div/div/div/div/div[1]/button\"}\n  (Session info: chrome=119.0.6045.159)","stacktrace":"#0 0x563495b015e3 \u003Cunknown>\n#1 0x5634957c40b7 \u003Cunknown>\n#2 0x563495811f53 \u003Cunknown>\n#3 0x563495812051 \u003Cunknown>\n#4 0x5634958579c4 \u003Cunknown>\n#5 0x563495838f1d \u003Cunknown>\n#6 0x563495854b3d \u003Cunknown>\n#7 0x563495838cc3 \u003Cunknown>\n#8 0x5634958040e4 \u003Cunknown>\n#9 0x5634958050ae \u003Cunknown>\n#10 0x563495ac7ce1 \u003Cunknown>\n#11 0x563495acbb7e \u003Cunknown>\n#12 0x563495ab54b5 \u003Cunknown>\n#13 0x563495acc7d6 \u003Cunknown>\n#14 0x563495a98dbf \u003Cunknown>\n#15 0x563495aef748 \u003Cunknown>\n#16 0x563495aef917 \u003Cunknown>\n#17 0x563495b00773 \u003Cunknown>\n#18 0x7f78a8b83ea7 start_thread\n"}} | headers=HTTPHeaderDict({'Content-Length': '902', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+ [MainThread] 2023-11-27 14:21:51,593 : DEBUG ::: Finished Request
+ [MainThread] 2023-11-27 14:21:51,595 : DEBUG ::: POST http://localhost:47767/session/855f771765305ae6d42f71e7ee35494e/elements {"using": "css selector", "value": "._2TxqA"}
+ [MainThread] 2023-11-27 14:21:51,602 : DEBUG ::: http://localhost:47767 "POST /session/855f771765305ae6d42f71e7ee35494e/elements HTTP/1.1" 200 0
+ [MainThread] 2023-11-27 14:21:51,603 : DEBUG ::: Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"B8CFD1D458015B6672B8EA851EF6086B_element_77"},{"element-6066-11e4-a52e-4f735466cecf":"B8CFD1D458015B6672B8EA851EF6086B_element_78"}]} | headers=HTTPHeaderDict({'Content-Length': '183', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+ [MainThread] 2023-11-27 14:21:51,604 : DEBUG ::: Finished Request
+ [MainThread] 2023-11-27 14:21:51,606 : DEBUG ::: POST http://localhost:47767/session/855f771765305ae6d42f71e7ee35494e/elements {"using": "css selector", "value": "._3PnEm"}
+ [MainThread] 2023-11-27 14:21:51,613 : DEBUG ::: http://localhost:47767 "POST /session/855f771765305ae6d42f71e7ee35494e/elements HTTP/1.1" 200 0
+ [MainThread] 2023-11-27 14:21:51,614 : DEBUG ::: Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"B8CFD1D458015B6672B8EA851EF6086B_element_79"},{"element-6066-11e4-a52e-4f735466cecf":"B8CFD1D458015B6672B8EA851EF6086B_element_80"}]} | headers=HTTPHeaderDict({'Content-Length': '183', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+ [MainThread] 2023-11-27 14:21:51,615 : DEBUG ::: Finished Request
+ [MainThread] 2023-11-27 14:21:51,616 : DEBUG ::: GET http://localhost:47767/session/855f771765305ae6d42f71e7ee35494e/element/B8CFD1D458015B6672B8EA851EF6086B_element_79/text {}
+ [MainThread] 2023-11-27 14:21:51,625 : DEBUG ::: http://localhost:47767 "GET /session/855f771765305ae6d42f71e7ee35494e/element/B8CFD1D458015B6672B8EA851EF6086B_element_79/text HTTP/1.1" 200 0
+ [MainThread] 2023-11-27 14:21:51,626 : DEBUG ::: Remote response: status=200 | data={"value":"2.7 м"} | headers=HTTPHeaderDict({'Content-Length': '18', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+ [MainThread] 2023-11-27 14:21:51,626 : DEBUG ::: Finished Request
+ [MainThread] 2023-11-27 14:21:51,627 : DEBUG ::: GET http://localhost:47767/session/855f771765305ae6d42f71e7ee35494e/element/B8CFD1D458015B6672B8EA851EF6086B_element_77/text {}
+ [MainThread] 2023-11-27 14:21:51,635 : DEBUG ::: http://localhost:47767 "GET /session/855f771765305ae6d42f71e7ee35494e/element/B8CFD1D458015B6672B8EA851EF6086B_element_77/text HTTP/1.1" 200 0
+ [MainThread] 2023-11-27 14:21:51,636 : DEBUG ::: Remote response: status=200 | data={"value":"Длина кабеля"} | headers=HTTPHeaderDict({'Content-Length': '35', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+ [MainThread] 2023-11-27 14:21:51,637 : DEBUG ::: Finished Request
+ [MainThread] 2023-11-27 14:21:51,639 : DEBUG ::: GET http://localhost:47767/session/855f771765305ae6d42f71e7ee35494e/element/B8CFD1D458015B6672B8EA851EF6086B_element_80/text {}
+ [MainThread] 2023-11-27 14:21:51,648 : DEBUG ::: http://localhost:47767 "GET /session/855f771765305ae6d42f71e7ee35494e/element/B8CFD1D458015B6672B8EA851EF6086B_element_80/text HTTP/1.1" 200 0
+ [MainThread] 2023-11-27 14:21:51,649 : DEBUG ::: Remote response: status=200 | data={"value":"переходник/адаптер"} | headers=HTTPHeaderDict({'Content-Length': '47', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+ [MainThread] 2023-11-27 14:21:51,650 : DEBUG ::: Finished Request
+ [MainThread] 2023-11-27 14:21:51,652 : DEBUG ::: GET http://localhost:47767/session/855f771765305ae6d42f71e7ee35494e/element/B8CFD1D458015B6672B8EA851EF6086B_element_78/text {}
+ [MainThread] 2023-11-27 14:21:51,661 : DEBUG ::: http://localhost:47767 "GET /session/855f771765305ae6d42f71e7ee35494e/element/B8CFD1D458015B6672B8EA851EF6086B_element_78/text HTTP/1.1" 200 0
+ [MainThread] 2023-11-27 14:21:51,662 : DEBUG ::: Remote response: status=200 | data={"value":"Тип"} | headers=HTTPHeaderDict({'Content-Length': '18', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+ [MainThread] 2023-11-27 14:21:51,663 : DEBUG ::: Finished Request
+ [MainThread] 2023-11-27 14:21:51,663 : INFO ::: Link has been processed by Virtual Chrome, link: https://market.yandex.ru/product--kabel-konverter-interfeisa-aten-iz-usb-c-v-4k-hdmi-2-7-m-uc3238-at/1821163231/spec?track=char&sku=101955126108 
+ [MainThread] 2023-11-27 14:21:53,667 : DEBUG ::: DELETE http://localhost:47767/session/855f771765305ae6d42f71e7ee35494e/window {}
+ [MainThread] 2023-11-27 14:21:53,778 : DEBUG ::: http://localhost:47767 "DELETE /session/855f771765305ae6d42f71e7ee35494e/window HTTP/1.1" 200 0
+ [MainThread] 2023-11-27 14:21:53,779 : DEBUG ::: Remote response: status=200 | data={"value":[]} | headers=HTTPHeaderDict({'Content-Length': '12', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+ [MainThread] 2023-11-27 14:21:53,779 : DEBUG ::: Finished Request
+ [MainThread] 2023-11-27 14:21:53,780 : DEBUG ::: unset $DISPLAY
+ [MainThread] 2023-11-27 14:21:53,788 : DEBUG ::: stdout=b''
+ [MainThread] 2023-11-27 14:21:53,789 : DEBUG ::: stderr=b''
+ [MainThread] 2023-11-27 14:21:53,795 : INFO ::: Virtual chrome was shut down
+ [MainThread] 2023-11-27 14:21:53,796 : INFO ::: Chrome has been closed
+ [MainThread] 2023-11-27 14:21:53,804 : INFO ::: Getting to push table to google service, n_rows = 4
+ [MainThread] 2023-11-27 14:21:53,827 : DEBUG ::: URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/13JoSe_OyLjCXLfydDmNhunAWdkZFwVM4ihnnzNYy2U0/values:batchUpdate?alt=json
+ [MainThread] 2023-11-27 14:21:54,769 : INFO ::: Processing finished for spreadsheet_id: 13JoSe_OyLjCXLfydDmNhunAWdkZFwVM4ihnnzNYy2U0
